@@ -1,8 +1,10 @@
-class AsyncExtension {
+class pbpp {
   getInfo() {
     return {
-      id: 'asyncexample',
-      name: 'Async Blocks',
+      id: 'pbpp',
+      name: 'PenguinBrowser++',
+      color1: '#0052a9',
+      color2: '#004488',
       blocks: [
 //         {
 //           opcode: 'wait',
@@ -54,4 +56,4 @@ class AsyncExtension {
       });
   }
 }
-Scratch.extensions.register(new AsyncExtension());
+Scratch.extensions.register(new pbpp());
