@@ -42,11 +42,10 @@ class pbpp {
 //   }
 
   fetch (args) {
-    var options = {
+    return fetch(args.URL,{
       method: 'GET',
       mode: 'no-cors'
-    };
-    return fetch(args.URL,options)
+    })
       .then((response) => {
         return response.text();
       })
